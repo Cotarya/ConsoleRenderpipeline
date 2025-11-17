@@ -17,7 +17,7 @@ int main() {
         system("cls");
         advlinedraw(*"#",5,2,false);
         advlinedraw(*"#",3,0,true);
-        inserttext("HI :3");
+        inserttext("HI :3"); // HI :3
         std::this_thread::sleep_for(std::chrono::seconds(1)); //So it wont look bad in console
     }
 }
