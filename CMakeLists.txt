@@ -7,5 +7,4 @@ add_executable(GameInConsole main.cpp
         renderpipeline/RenderLib.h
         renderpipeline/ColorEngine.h
         consolecalibration.h
-        renderpipeline/examples.h
 )
