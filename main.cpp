@@ -7,10 +7,10 @@
 
 void example() {
     rendering render;
-    render.fillscreen();
-    render.advlinedraw(*"#",5,2,false);
-    render.advlinedraw(*"#",3,0,true);
-    render.inserttext("HI :3"); // HI :3
+    render.fillScreen();
+    render.advLineDraw(*"#",5,2,false);
+    render.advLineDraw(*"#",3,0,true);
+    render.insertText("HI :3"); // HI :3
 }
 
 int main() {

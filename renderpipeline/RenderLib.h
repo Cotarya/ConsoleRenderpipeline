@@ -1,4 +1,3 @@
-
 #pragma once
 
 #ifndef GAMEINCONSOLE_RENDERLIB_H
@@ -15,13 +14,13 @@
 
 int MaxScreenX = 50;
 int MaxScreenY = 29;
-float sizefix = 2.5;
+float sizeFix = 2.5;
 
 // Functions
 
 class rendering {
 public:
-    void advlinedraw(const char character,const int amount,const int spaceafter,const bool endline) {
+    void advLineDraw(const char character,const int amount,const int spaceafter,const bool endline) {
         for (int i = 0; i < amount; i++) {
             std::cout << character;
         }
@@ -36,11 +35,11 @@ public:
         }
     }
 
-    void inserttext(const std::string &text) {
+    void insertText(const std::string &text) {
         std::cout << text;
     }
 
-    void fillscreen() {
+    void fillScreen() {
         for (int i = 0; i < MaxScreenY; i++) {
             for (int j = 0; j < MaxScreenX; j++) {
                 std::cout << " ";
