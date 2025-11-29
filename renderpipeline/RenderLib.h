@@ -3,7 +3,6 @@
 //
 
 #pragma once
-#include "ColorEngine.h"
 
 #ifndef GAMEINCONSOLE_RENDERLIB_H
 #define GAMEINCONSOLE_RENDERLIB_H
@@ -60,13 +59,6 @@ void fillscreen(const int ColorType) {
         std::cout << std::endl;
     }
 }
-
-HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
-//SetConsoleTextAttribute(hConsole, 0);
-
-// Advanced line drawing X3
-
-
 
 class rendering {
 public:
