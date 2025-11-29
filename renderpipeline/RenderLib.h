@@ -22,7 +22,7 @@
 
 int MaxScreenX = 50;
 int MaxScreenY = 29;
-int CounterColor = 0;
+// int CounterColor = 0;
 float sizefix = 2.5;
 
 // Functions
@@ -33,28 +33,28 @@ float sizefix = 2.5;
 void fillscreen(const int ColorType) {
     for (int i = 0; i < MaxScreenY; i++) {
         for (int j = 0; j < MaxScreenX; j++) {
-            if (ColorType == 1) {
-                if (CounterColor == 0) {
-                    std::cout << "#";
-                    CounterColor++;
-                }
-                else if (CounterColor == 1) {
-                    std::cout << "$";
-                    CounterColor++;
-                }
-                else if (CounterColor == 2) {
-                    std::cout << "*";
-                    CounterColor++;
-                }
-                else if (CounterColor == 3) {
-                    std::cout << "%";
-                    CounterColor = 0;
-                }
-            }
-            else {
-                std::cout << "@";
-            }
-
+            // if (ColorType == 1) {
+            //     if (CounterColor == 0) {
+            //         std::cout << "#";
+            //         CounterColor++;
+            //     }
+            //     else if (CounterColor == 1) {
+            //         std::cout << "$";
+            //         CounterColor++;
+            //     }
+            //     else if (CounterColor == 2) {
+            //         std::cout << "*";
+            //         CounterColor++;
+            //     }
+            //     else if (CounterColor == 3) {
+            //         std::cout << "%";
+            //         CounterColor = 0;
+            //     }
+            // }
+            // else {
+            //     std::cout << "@";
+            // }
+            std::cout << " ";
         }
         std::cout << std::endl;
     }
