@@ -8,7 +8,7 @@
 int main() {
     for (true == true; true;) {
         rendering render;
-        render.fillscreen(1);
+        render.fillscreen();
         render.advlinedraw(*"#",5,2,false);
         render.advlinedraw(*"#",3,0,true);
         render.inserttext("HI :3"); // HI :3
