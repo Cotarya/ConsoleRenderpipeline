@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include "renderpipeline/RenderLib.h"
-#include "renderpipeline/ColorEngine.h"
 #include "consolecalibration.h"
 #include <thread>
 #include <chrono>
