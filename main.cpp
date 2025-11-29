@@ -5,12 +5,6 @@
 #include <thread>
 #include <chrono>
 
-
-
-//Project info:
-//Name: Game in console c++
-//Run in console!!!
-
 int main() {
     for (true == true; true;) {
         rendering render;

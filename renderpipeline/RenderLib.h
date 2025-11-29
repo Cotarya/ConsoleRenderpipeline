@@ -1,6 +1,3 @@
-//
-// Created by meowy on 11.11.2025.
-//
 
 #pragma once
 
@@ -18,7 +15,6 @@
 
 int MaxScreenX = 50;
 int MaxScreenY = 29;
-// int CounterColor = 0;
 float sizefix = 2.5;
 
 // Functions
@@ -44,7 +40,7 @@ public:
         std::cout << text;
     }
 
-    void fillscreen(const int ColorType) {
+    void fillscreen() {
         for (int i = 0; i < MaxScreenY; i++) {
             for (int j = 0; j < MaxScreenX; j++) {
                 std::cout << " ";
