@@ -9,10 +9,6 @@
 
 #endif //GAMEINCONSOLE_RENDERLIB_H
 
-#include <windows.h>
-
-//Render library
-
 //When using this library for your projects make sure to set up it here
 //this is the default
 //int MaxScreenX = 100;
