@@ -17,7 +17,7 @@
 //this is the default
 //int MaxScreenX = 100;
 //int MaxScreenY = 17;
-//
+//float sizefix = 2.5;
 
 
 int MaxScreenX = 50;
