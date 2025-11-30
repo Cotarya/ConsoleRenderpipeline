@@ -5,13 +5,6 @@
 
 #endif //GAMEINCONSOLE_RENDERLIB_H
 
-//When using this library for your projects make sure to set up it here
-//this is the default
-//int MaxScreenX = 100;
-//int MaxScreenY = 17;
-//float sizefix = 2.5;
-
-
 int MaxScreenX = 50;
 int MaxScreenY = 29;
 float sizeFix = 2.5;
