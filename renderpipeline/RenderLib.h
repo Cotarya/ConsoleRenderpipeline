@@ -40,6 +40,12 @@ public:
     }
 
     void fillScreen() {
+        if (MaxScreenY > 90 ) {
+            MaxScreenY = 90;
+        }
+        else {
+
+        }
         for (int i = 0; i < MaxScreenY; i++) {
             for (int j = 0; j < MaxScreenX; j++) {
                 std::cout << " ";
