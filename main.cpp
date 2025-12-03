@@ -6,11 +6,11 @@
 #include <chrono>
 
 void example() {
-    rendering render;
-    render.fillScreen();
-    render.advLineDraw(*"#",5,2,false);
-    render.advLineDraw(*"#",3,0,true);
-    render.insertText("HI :3"); // HI :3
+    render render;
+    render.screenFill();
+    render.drawline(*"#",5,2,false);
+    render.drawline(*"#",3,0,true);
+    render.printIL("HI :3"); // HI :3
 }
 
 int main() {
