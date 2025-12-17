@@ -6,12 +6,12 @@
 #include <chrono>
 
 void example() {
-    draw::screenFill();
+    draw::screenfill();
     draw::drawline(*"#",5,2,false);
     draw::drawline(*"#",3,0,true);
-    draw::printIL("HI :3"); // HI :3
-    draw::printIL(":3");
-    draw::printIL(":3");
+    draw::print("HI :3"); // HI :3
+    draw::print(":3");
+    draw::print(":3");
 }
 
 int main() {
