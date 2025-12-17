@@ -6,11 +6,12 @@
 #include <chrono>
 
 void example() {
-    render render;
-    render.screenFill();
-    render.drawline(*"#",5,2,false);
-    render.drawline(*"#",3,0,true);
-    render.printIL("HI :3"); // HI :3
+    draw::screenFill();
+    draw::drawline(*"#",5,2,false);
+    draw::drawline(*"#",3,0,true);
+    draw::printIL("HI :3"); // HI :3
+    draw::printIL(":3");
+    draw::printIL(":3");
 }
 
 int main() {

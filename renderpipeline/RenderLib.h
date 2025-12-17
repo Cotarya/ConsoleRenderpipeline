@@ -15,10 +15,7 @@ int v1 = 29;
 int v2 = 50;
 float v3 = 2.5;
 
-// Class rendering
-
-class render {
-public:
+namespace draw {
     void drawline(const char p1,const int p2,const int p3,const bool p4) {
         for (int i = 0; i < p2; i++) {
             std::cout << p1;
@@ -41,4 +38,4 @@ public:
             std::cout << std::endl;
         }
     }
-};
+}
