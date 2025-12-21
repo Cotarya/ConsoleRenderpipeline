@@ -5,6 +5,9 @@
 #pragma once
 #include <iostream>
 
+// Last update
+//
+
 #ifndef GAMEINCONSOLE_RENDERLIB_H
 #define GAMEINCONSOLE_RENDERLIB_H
 
@@ -27,7 +30,7 @@ namespace draw {
             std::cout << std::endl;
         }
     }
-    void print(const std::string &p5) { //Now it makes sense yk
+    void print(const std::string &p5) {
         std::cout << p5;
     }
     void screenfill() {
@@ -39,5 +42,3 @@ namespace draw {
         }
     }
 }
-
-// Legacy version will be added later
